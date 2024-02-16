@@ -1,3 +1,4 @@
+import logo from "../../assets/Hotel NiN.png"
 const Footer = () => {
   return (
     <footer className="bg-white rounded-t-xl shadow dark:bg-gray-900">
