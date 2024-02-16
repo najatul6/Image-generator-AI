@@ -3,17 +3,17 @@ import MainLayout from "../Layout/MainLayout";
 import Home from "../Pages/Home/Home";
 
 
-const Router = createBrowserRouter([
+const routes = createBrowserRouter([
     {
         path:"/",
         element:<MainLayout/>,
         children:[
             {
                 path:"/",
-                element:<Home/>
+                element:<Home/>,
             }
         ]
     }
 ])
 
-export default Router;
+export default routes;
