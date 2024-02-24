@@ -1,7 +1,7 @@
 const LogIn = () => {
   return (
-    <>
-      <form className="max-w-sm mx-auto">
+    <div className="max-w-[1440px] mx-auto bg-">
+      <form className="max-w-sm mx-auto ">
         <div className="mb-5">
           <label
             htmlFor="email"
@@ -39,7 +39,7 @@ const LogIn = () => {
           Submit
         </button>
       </form>
-    </>
+    </div>
   );
 };
 
