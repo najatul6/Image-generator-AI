@@ -8,7 +8,9 @@ export default {
     extend: {
       colors:{
         "dark-blue":"#1d1c2c",
+        "low-blue":"#2b293ec2",
         "dark-orange":"#ff4e01",
+        "light-sky":"#2ba7a5",
       }
     },
   },
