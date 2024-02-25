@@ -37,6 +37,14 @@ const NavBar = () => {
           Contact
         </NavLink>
       </li>
+      <li>
+        <NavLink
+          to="/login"
+         className="border-0 shadow-md shadow-light-sky py-3 px-2 rounded-xl text-white bg-dark-orange hover:text-dark-orange hover:bg-white"
+        >
+          Log in/Register
+        </NavLink>
+      </li>
     </>
   );
   return (
