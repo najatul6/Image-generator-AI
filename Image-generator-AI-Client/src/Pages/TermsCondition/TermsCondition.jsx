@@ -1,6 +1,6 @@
 const TermsCondition = () => {
   return (
-    <div className="text-white text-wrap">
+    <div className="text-white text-wrap text-justify">
       <h2>Terms of Use</h2>
       <p>
         Please read these terms of use (“agreement”) carefully before using the
